@@ -1,0 +1,16 @@
+.numbersDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  font-size: 1, 5rem;
+  cursor: pointer;
+}
+
+/* .numbersDiv:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+} */

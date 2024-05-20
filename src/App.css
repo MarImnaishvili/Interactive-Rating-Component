@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+.sectionSecond,
+.sectionFirst {
+  width: 33rem;
+  border-radius: 2rem;
+  background-color: #181e27;
+  margin: 15rem auto;
+  padding: 2rem;
+}
+
+.starIconDiv {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #262e38;
+  position: relative;
+}
+.star {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  margin-bottom: 2rem;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2.5rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+}
+
+#btn {
+  width: 100%;
+  height: 4.5rem;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.result {
+  color: hsl(25, 97%, 53%);
+  background-color: #262e38;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2.5rem;
+}
+.thankYouIconDiv {
+  margin-bottom: 2.5rem;
+}
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
