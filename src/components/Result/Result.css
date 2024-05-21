@@ -1,0 +1,12 @@
+.resultShow {
+  color: hsl(25, 97%, 53%);
+  background-color: #262e38;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.thankYouIconDiv {
+  margin-bottom: 2.5rem;
+}

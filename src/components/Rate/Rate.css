@@ -1,0 +1,67 @@
+.starIconDiv {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #262e38;
+  position: relative;
+}
+.star {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  margin-bottom: 2rem;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2.5rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+}
+
+#btn {
+  width: 100%;
+  height: 4.5rem;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.numbersDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  color: hsl(217, 12%, 63%);
+  font-size: 1, 5rem;
+  cursor: pointer;
+}
+
+/* .numbersDiv:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+} */
