@@ -20,7 +20,11 @@ function Rate({ setShowRate, selected, setSelected }) {
           {numbers.map((value) => (
             <div
               className="numbersDiv"
-              onClick={() => setSelected(value)}
+              onClick={
+                selected === value
+                  ? () => setSelected(null)
+                  : () => setSelected(value)
+              }
               style={
                 selected === value
                   ? { backgroundColor: "hsl(25, 97%, 53%)" }
@@ -31,7 +35,10 @@ function Rate({ setShowRate, selected, setSelected }) {
             </div>
           ))}
         </div>
-        <button id="btn" onClick={() => setShowRate(false)}>
+        <button
+          id="btn"
+          onClick={selected !== null ? () => setShowRate(false) : null}
+        >
           SUBMIT
         </button>
       </div>

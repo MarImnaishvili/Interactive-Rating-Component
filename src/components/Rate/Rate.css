@@ -61,7 +61,7 @@ p {
   cursor: pointer;
 }
 
-/* .numbersDiv:hover {
+.numbersDiv:hover {
   color: hsl(0, 0%, 100%);
-  background-color: hsl(217, 12%, 63%);
-} */
+  background-color: hsl(217, 12%, 63%) !important;
+}

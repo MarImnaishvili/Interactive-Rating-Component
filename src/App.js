@@ -4,7 +4,7 @@ import Rate from "./components/Rate/Rate";
 import Result from "./components/Result/Result";
 
 function App() {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(null);
   const [showRate, setShowRate] = useState(true);
 
   return (
